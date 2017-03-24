@@ -1,0 +1,51 @@
+body {
+  background: url(https://wallpaperbrowse.com/media/images/geo-shapes-black-1280.jpg)
+}
+
+h1 {
+  font-size: 90px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  color: lightgray;
+  font-weight: bolder;
+}
+
+#play {
+float:left;
+width:18px;
+height:24px;
+color: lightgray;
+margin-left:100px;
+}
+
+#pause {
+float:left;
+margin-left:10px;
+width:18px;
+height:24px;
+color: lightgray;
+}
+
+#stop {
+float:left;
+margin-left:10px;
+width:18px;
+height:24px;
+color: lightgray;
+}
+
+#skip {
+float:left;
+margin-left:10px;
+width:18px;
+height:24px;
+color: lightgray;
+}
+
+#previous {
+float:left;
+margin-left:10px;
+width:18px;
+height:24px;
+color: lightgray;
+}
