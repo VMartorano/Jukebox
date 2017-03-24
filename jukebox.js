@@ -23,16 +23,17 @@ jukebox.addSong('06 Lemonade.m4a')
 jukebox.addSong('Good For You (feat. A$AP Rocky) (NEBBRA Remix).mp3')
 
 Jukebox.prototype.play = function(){
-  music.src = jukebox.songs[i]
   music.play()
 }
+music.src = jukebox.songs[i]
 
 Jukebox.prototype.pause = function(){
  music.pause();
 }
 
 Jukebox.prototype.stop = function(){
- music.stop();
+  music.src = jukebox.songs[i]
+  music.stop();
 }
 
 Jukebox.prototype.skip = function() {
